@@ -14,7 +14,6 @@ def show_match(bot, opponent_bot, map_num):
     print(command)
     os.system(command)
 
-
 def test(bot, opponent_bot, map_num):
     """ Runs an instance of Planet Wars between the two given bots on the specified map. """
     bot_name, opponent_name = bot.split('/')[1].split('.')[0], opponent_bot.split('/')[1].split('.')[0]
